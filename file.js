@@ -40,8 +40,7 @@ module.exports = {
 
 
 
-// in some file, with imported functions above
-// in async block
+
 const run = async () => {
   const res = await readFile('./nodeproject.js')
   console.log(res)
